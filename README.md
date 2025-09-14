@@ -174,7 +174,7 @@
 
     if (user) {
       // ซ่อนฟอร์มล็อกอิน
-      document.getElementById('loginForm').classList.add('hidden');
+      document.getElementById('bottomRightBox').style.display = 'none';
 
       // แสดงกล่องรูป
       const imageBox = document.getElementById('imageBox');
